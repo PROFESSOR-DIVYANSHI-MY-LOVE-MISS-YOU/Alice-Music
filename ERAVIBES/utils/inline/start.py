@@ -1,4 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
+from telegram import WebAppInfo
 
 import config
 from ERAVIBES import app
@@ -29,7 +30,7 @@ def private_panel(_):
             InlineKeyboardButton(text="˹ ᴍᴜsɪᴄ ˼", callback_data="help_callback hb1"),
         ],
        [
-            InlineKeyboardButton(text=_["S_B_5"], web_app=WebAppInfo(url=config.PROFESSOR)),
+            InlineKeyboardButton(text=_["S_B_10"], web_app=WebAppInfo(url=config.PROFESSOR)),
         ],
     ]
     return buttons
