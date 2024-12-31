@@ -17,7 +17,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "rishu1286")
 BOT_USERNAME = getenv("BOT_USERNAME", "Rishu_MusicBot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "RISHU VIBES")
+BOT_NAME = getenv("BOT_NAME", "PROFESSOR")
 
 #❖ get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "ERA_ASS")
@@ -50,7 +50,7 @@ GPT_API = getenv("GPT_API", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RishuBot/Rishu_Music",
+    "https://github.com/PROFESSOR-DIVYANSHI-MY-LOVE-MISS-YOU/Alice-Music",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ur_rishu_143")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ur_support07")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/professor_modz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cvDG1UXzslA0MTJl")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
